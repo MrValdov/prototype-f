@@ -33,6 +33,9 @@
       "react-app/jest"
     ]
   },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
