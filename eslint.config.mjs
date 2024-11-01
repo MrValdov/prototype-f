@@ -15,6 +15,9 @@ export default [
       'prefer-const': 'error',
       'react/jsx-uses-react': 'error',
       'react/jsx-uses-vars': 'error',
+      rules: {
+        quotes: ['error', 'single'], // or "double"
+      },
     },
   },
   {
